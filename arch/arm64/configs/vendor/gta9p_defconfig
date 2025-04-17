@@ -486,6 +486,16 @@ CONFIG_BUILD_ARM64_DT_OVERLAY=y
 CONFIG_TLB_CONF_HANDLER=y
 
 #
+# Hypervisor
+#
+# CONFIG_UH is not set
+# CONFIG_RKP is not set
+# CONFIG_KDP is not set
+# CONFIG_KDP_CRED is not set
+# CONFIG_KDP_NS is not set
+# end of Hypervisor
+
+#
 # Power management options
 #
 CONFIG_SUSPEND=y
@@ -1347,7 +1357,7 @@ CONFIG_QRTR_SMD=y
 # CONFIG_QRTR_TUN is not set
 # CONFIG_QRTR_HAVEN is not set
 # CONFIG_NET_NCSI is not set
-CONFIG_KNOX_NCM=y
+# CONFIG_KNOX_NCM is not set
 CONFIG_RPS=y
 CONFIG_RFS_ACCEL=y
 CONFIG_XPS=y
